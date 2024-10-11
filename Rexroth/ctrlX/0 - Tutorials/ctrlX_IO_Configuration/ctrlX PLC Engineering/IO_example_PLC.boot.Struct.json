@@ -1,0 +1,599 @@
+{
+  "Name": "ctrlX_CORE",
+  "IconName": null,
+  "EcadId": "",
+  "TypeName": "_3S.CoDeSys.DeviceObject.DeviceObject",
+  "Type": 4096,
+  "Id": "1001 0080",
+  "ModuleId": null,
+  "Version": "2.6.20.0",
+  "ObjectGuid": "ac29f607-9993-439d-8862-b293702a29fb",
+  "SlotIndex": 0,
+  "Inputs": null,
+  "Outputs": null,
+  "StructuralItems": [
+    {
+      "Name": "PLC Logic",
+      "IconName": null,
+      "EcadId": null,
+      "TypeName": "_3S.CoDeSys.PlcLogicObject.PlcLogicObject",
+      "Type": 0,
+      "Id": null,
+      "ModuleId": null,
+      "Version": null,
+      "ObjectGuid": "38161ec5-3d99-411b-b7fc-8482186799c5",
+      "SlotIndex": 0,
+      "Inputs": null,
+      "Outputs": null,
+      "StructuralItems": [
+        {
+          "Name": "Application",
+          "IconName": null,
+          "EcadId": null,
+          "TypeName": "_3S.CoDeSys.ApplicationObject.ApplicationObject",
+          "Type": 0,
+          "Id": null,
+          "ModuleId": null,
+          "Version": null,
+          "ObjectGuid": "9ebdd9e8-6bcb-4f24-b2c3-48c64fac53d0",
+          "SlotIndex": 0,
+          "Inputs": null,
+          "Outputs": null,
+          "StructuralItems": [
+            {
+              "Name": "Library Manager",
+              "IconName": null,
+              "EcadId": null,
+              "TypeName": "_3S.CoDeSys.LibManObject.LibManObject",
+              "Type": 0,
+              "Id": null,
+              "ModuleId": null,
+              "Version": null,
+              "ObjectGuid": "09548793-4cd4-4428-bba8-1df472b45ef3",
+              "SlotIndex": 0,
+              "Inputs": null,
+              "Outputs": null,
+              "StructuralItems": []
+            },
+            {
+              "Name": "PLC_PRG",
+              "IconName": null,
+              "EcadId": null,
+              "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+              "Type": 0,
+              "Id": null,
+              "ModuleId": null,
+              "Version": null,
+              "ObjectGuid": "ea3dfbd0-5c63-4806-b3f6-14d0f37d2c4d",
+              "SlotIndex": 0,
+              "Inputs": null,
+              "Outputs": null,
+              "StructuralItems": []
+            },
+            {
+              "Name": "Task Configuration",
+              "IconName": null,
+              "EcadId": null,
+              "TypeName": "_3S.CoDeSys.TaskConfigObject.TaskConfigObject",
+              "Type": 0,
+              "Id": null,
+              "ModuleId": null,
+              "Version": null,
+              "ObjectGuid": "f18649f6-3623-47c1-8fd1-65dfef3418a2",
+              "SlotIndex": 0,
+              "Inputs": null,
+              "Outputs": null,
+              "StructuralItems": [
+                {
+                  "Name": "MainTask",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.TaskObject.TaskObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "3be7355d-7f3b-4e61-8b98-60e2891cca19",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": [
+                    {
+                      "Name": "PLC_PRG",
+                      "IconName": null,
+                      "EcadId": null,
+                      "TypeName": "_3S.CoDeSys.TaskObject.TaskPOUCallObject",
+                      "Type": 0,
+                      "Id": null,
+                      "ModuleId": null,
+                      "Version": null,
+                      "ObjectGuid": "15f9d10e-7ada-428b-bd66-6406d8492fb4",
+                      "SlotIndex": 0,
+                      "Inputs": null,
+                      "Outputs": null,
+                      "StructuralItems": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Symbol Configuration",
+              "IconName": null,
+              "EcadId": null,
+              "TypeName": "_3S.CoDeSys.SymbolConfigObject.SymbolConfigObject",
+              "Type": 0,
+              "Id": null,
+              "ModuleId": null,
+              "Version": null,
+              "ObjectGuid": "915ce78a-9bd1-4f7d-b986-4f0b09dc3deb",
+              "SlotIndex": 0,
+              "Inputs": null,
+              "Outputs": null,
+              "StructuralItems": []
+            },
+            {
+              "Name": "CheckFunctions",
+              "IconName": null,
+              "EcadId": null,
+              "TypeName": "_3S.CoDeSys.DefaultNavigators.FolderObject",
+              "Type": 0,
+              "Id": null,
+              "ModuleId": null,
+              "Version": null,
+              "ObjectGuid": "3a0f4d6a-8afd-4979-8672-131138f9ff0b",
+              "SlotIndex": 0,
+              "Inputs": null,
+              "Outputs": null,
+              "StructuralItems": [
+                {
+                  "Name": "CheckBounds",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObjectCheckFunction",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "5c57242d-0abc-44e9-a367-983e29473911",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "CheckDivDInt",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "58c0f176-f4bb-46bb-8dab-1ed03dd53ad8",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "CheckDivLInt",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "609648a1-2e58-455b-9c4e-d880496e9f4a",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "CheckDivLReal",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "9803d488-e75a-4e11-a200-6e673d6e224f",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "CheckDivReal",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "eeb3df6d-e42d-4119-9c95-6f1833bef139",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "CheckLRangeSigned",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "8ef16baf-6c68-4fe0-b526-10ef481f2fe5",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "CheckLRangeUnsigned",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "521ddf74-7d27-4f28-a796-a061adfdde45",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "CheckPointer",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObjectCheckFunction",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "5958a7c4-4190-4632-9e8d-a0514bb4166b",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "CheckRangeSigned",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "6003db3f-7c51-4503-b0d5-21bc7b4782e5",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "CheckRangeUnsigned",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "ec010e8d-bce5-4419-adff-2749696bf6d1",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Realtime_Data",
+      "IconName": null,
+      "EcadId": null,
+      "TypeName": "_3S.CoDeSys.DeviceObject.DeviceObject",
+      "Type": 42420,
+      "Id": "1001 0000",
+      "ModuleId": null,
+      "Version": "1.8.0.0",
+      "ObjectGuid": "8adc6f78-f10c-48a8-a23a-93447e1fee7b",
+      "SlotIndex": 0,
+      "Inputs": null,
+      "Outputs": null,
+      "StructuralItems": [
+        {
+          "Name": "ethercat_master_instances_ethercatmaster",
+          "IconName": null,
+          "EcadId": null,
+          "TypeName": "_3S.CoDeSys.DeviceObject.DeviceObject",
+          "Type": 42430,
+          "Id": "1001 0000",
+          "ModuleId": null,
+          "Version": "1.8.0.0",
+          "ObjectGuid": "89be8b6d-7890-4283-a272-2551a0f0c19b",
+          "SlotIndex": 0,
+          "Inputs": null,
+          "Outputs": null,
+          "StructuralItems": [
+            {
+              "Name": "XB_EC_12",
+              "IconName": null,
+              "EcadId": null,
+              "TypeName": "_3S.CoDeSys.DeviceObject.DeviceObject",
+              "Type": 42450,
+              "Id": "1001 0000",
+              "ModuleId": null,
+              "Version": "1.8.0.0",
+              "ObjectGuid": "f3f4ddb3-d3de-43ea-abb9-ebe14626afb4",
+              "SlotIndex": 0,
+              "Inputs": [
+                {
+                  "Id": 2952855568,
+                  "Name": "",
+                  "IecAddress": "%IW0",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855569,
+                  "Name": "",
+                  "IecAddress": "%IW2",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855570,
+                  "Name": "",
+                  "IecAddress": "%IW4",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855571,
+                  "Name": "",
+                  "IecAddress": "%IW6",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855572,
+                  "Name": "",
+                  "IecAddress": "%IX8.0",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855573,
+                  "Name": "",
+                  "IecAddress": "%IX8.1",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855574,
+                  "Name": "",
+                  "IecAddress": "%IX8.2",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855575,
+                  "Name": "",
+                  "IecAddress": "%IX8.3",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855576,
+                  "Name": "",
+                  "IecAddress": "%IX8.4",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855577,
+                  "Name": "",
+                  "IecAddress": "%IX8.5",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855578,
+                  "Name": "",
+                  "IecAddress": "%IX8.6",
+                  "Description": "",
+                  "Descriptions": []
+                },
+                {
+                  "Id": 2952855579,
+                  "Name": "",
+                  "IecAddress": "%IX8.7",
+                  "Description": "",
+                  "Descriptions": []
+                }
+              ],
+              "Outputs": null,
+              "StructuralItems": [
+                {
+                  "Name": "XF71",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.DeviceObject.DeviceObject",
+                  "Type": 42450,
+                  "Id": "1001 0000",
+                  "ModuleId": null,
+                  "Version": "1.8.0.0",
+                  "ObjectGuid": "be368c81-f6f6-4f70-9a8b-cb49f5ec2505",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": [
+                    {
+                      "Name": "XI110208",
+                      "IconName": null,
+                      "EcadId": null,
+                      "TypeName": "_3S.CoDeSys.DeviceObject.DeviceObject",
+                      "Type": 42450,
+                      "Id": "1001 0000",
+                      "ModuleId": null,
+                      "Version": "1.8.0.0",
+                      "ObjectGuid": "d5fd50d3-f614-4e83-8604-e3541e5265e2",
+                      "SlotIndex": 0,
+                      "Inputs": [
+                        {
+                          "Id": 2952855568,
+                          "Name": "Application.PLC_PRG.IN0",
+                          "IecAddress": "%IX9.0",
+                          "Description": "",
+                          "Descriptions": []
+                        },
+                        {
+                          "Id": 2952855569,
+                          "Name": "",
+                          "IecAddress": "%IX9.1",
+                          "Description": "",
+                          "Descriptions": []
+                        },
+                        {
+                          "Id": 2952855570,
+                          "Name": "Application.PLC_PRG.IN2",
+                          "IecAddress": "%IX9.2",
+                          "Description": "",
+                          "Descriptions": []
+                        },
+                        {
+                          "Id": 2952855571,
+                          "Name": "",
+                          "IecAddress": "%IX9.3",
+                          "Description": "",
+                          "Descriptions": []
+                        },
+                        {
+                          "Id": 2952855572,
+                          "Name": "",
+                          "IecAddress": "%IX9.4",
+                          "Description": "",
+                          "Descriptions": []
+                        },
+                        {
+                          "Id": 2952855573,
+                          "Name": "",
+                          "IecAddress": "%IX9.5",
+                          "Description": "",
+                          "Descriptions": []
+                        },
+                        {
+                          "Id": 2952855574,
+                          "Name": "",
+                          "IecAddress": "%IX9.6",
+                          "Description": "",
+                          "Descriptions": []
+                        },
+                        {
+                          "Id": 2952855575,
+                          "Name": "",
+                          "IecAddress": "%IX9.7",
+                          "Description": "",
+                          "Descriptions": []
+                        }
+                      ],
+                      "Outputs": null,
+                      "StructuralItems": []
+                    },
+                    {
+                      "Name": "XI211208",
+                      "IconName": null,
+                      "EcadId": null,
+                      "TypeName": "_3S.CoDeSys.DeviceObject.DeviceObject",
+                      "Type": 42450,
+                      "Id": "1001 0000",
+                      "ModuleId": null,
+                      "Version": "1.8.0.0",
+                      "ObjectGuid": "8d17bfcd-c310-45a0-8d8a-79d772cca0a8",
+                      "SlotIndex": 0,
+                      "Inputs": null,
+                      "Outputs": [
+                        {
+                          "Id": 2952921104,
+                          "Name": "",
+                          "IecAddress": "%QX0.0",
+                          "Description": "",
+                          "Descriptions": null
+                        },
+                        {
+                          "Id": 2952921105,
+                          "Name": "",
+                          "IecAddress": "%QX0.1",
+                          "Description": "",
+                          "Descriptions": null
+                        },
+                        {
+                          "Id": 2952921106,
+                          "Name": "Application.PLC_PRG.OUT2",
+                          "IecAddress": "%QX0.2",
+                          "Description": "",
+                          "Descriptions": null
+                        },
+                        {
+                          "Id": 2952921107,
+                          "Name": "",
+                          "IecAddress": "%QX0.3",
+                          "Description": "",
+                          "Descriptions": null
+                        },
+                        {
+                          "Id": 2952921108,
+                          "Name": "",
+                          "IecAddress": "%QX0.4",
+                          "Description": "",
+                          "Descriptions": null
+                        },
+                        {
+                          "Id": 2952921109,
+                          "Name": "",
+                          "IecAddress": "%QX0.5",
+                          "Description": "",
+                          "Descriptions": null
+                        },
+                        {
+                          "Id": 2952921110,
+                          "Name": "",
+                          "IecAddress": "%QX0.6",
+                          "Description": "",
+                          "Descriptions": null
+                        },
+                        {
+                          "Id": 2952921111,
+                          "Name": "",
+                          "IecAddress": "%QX0.7",
+                          "Description": "",
+                          "Descriptions": null
+                        }
+                      ],
+                      "StructuralItems": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
