@@ -1,1 +1,0 @@
-https://developer.community.boschrexroth.com/t5/Store-and-How-to/Smart-HMI-WebIQ-Server/ba-p/18412
